@@ -8,4 +8,4 @@ script:
 deploy:
   provider: heroku
   app: whispering-mountain-24616
-  api_key: $(HEROKU_API_KEY)
+  api_key: ${HEROKU_API_KEY}
