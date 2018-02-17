@@ -5,3 +5,7 @@ install:
   - make deps
 script:
   - make test
+deploy:
+  provider: heroku
+  app: whispering-mountain-24616
+  api_key: $(HEROKU_API_KEY)
