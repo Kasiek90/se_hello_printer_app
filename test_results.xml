@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="2" failures="0" name="pytest" skips="0" tests="2" time="0.222"><testcase classname="" file="test/test_formater.py" name="test.test_formater" time="0"><error message="collection failure">ImportError while importing test module &apos;/home/student/Kasiek90/se_nauka_gita/se_hello_printer_app/test/test_formater.py&apos;.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+test/test_formater.py:1: in &lt;module&gt;
+    from hello_world.formater import plain_text_upper_case
+hello_world/__init__.py:1: in &lt;module&gt;
+    from flask import Flask
+E   ImportError: No module named flask</error></testcase><testcase classname="" file="test/test_views.py" name="test.test_views" time="0"><error message="collection failure">ImportError while importing test module &apos;/home/student/Kasiek90/se_nauka_gita/se_hello_printer_app/test/test_views.py&apos;.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+test/test_views.py:2: in &lt;module&gt;
+    from hello_world import app
+hello_world/__init__.py:1: in &lt;module&gt;
+    from flask import Flask
+E   ImportError: No module named flask</error></testcase></testsuite>
