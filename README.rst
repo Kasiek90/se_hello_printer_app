@@ -2,7 +2,7 @@ Simple Flask App
 ================
 
 .. image:: https://app.statuscake.com/button/index.php?Track=1wP1AsC15z&Days=1&Design=1
-    :target:https://www.statuscake.com/
+    :target: https://www.statuscake.com/
 
 .. image:: https://travis-ci.org/Kasiek90/se_hello_printer_app.svg?branch=master
     :target: https://travis-ci.org/Kasiek90/se_hello_printer_app
