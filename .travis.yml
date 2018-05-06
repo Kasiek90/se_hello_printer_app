@@ -5,6 +5,7 @@ install:
   - make deps
 script:
   - make test
+  - make run
   - sleep 3
   - make test_api
 deploy:
