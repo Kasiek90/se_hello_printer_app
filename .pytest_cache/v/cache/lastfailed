@@ -1,1 +1,6 @@
-{}
+{
+  "test_ui/test_ui.py::TestFormater::test_check": true, 
+  "test_ui/test_ui.py::TestFormater::test_check1": true, 
+  "test_ui/test_ui.py::TestFormater::test_check_text": true, 
+  "test_ui/test_ui.py::TestFormater::test_text": true
+}
