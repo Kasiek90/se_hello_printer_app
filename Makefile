@@ -16,6 +16,9 @@ test_smoke:
 
 run:
 	python main.py
+	
+test_api:
+	python test_api
 
 docker_build:
 	docker build -t hello-world-printer .
