@@ -4,9 +4,11 @@ python:
 install:
   - make deps
 script:
-  - make docker_run
+  - make run
   - sleep 3
   - make test_api
+  - make test_ui
+
 deploy:
   provider: heroku
   app: whispering-mountain-24616
