@@ -5,6 +5,8 @@ install:
   - make deps
 script:
   - make test
+  - sleep 3
+  - make test_api
 deploy:
   provider: heroku
   app: whispering-mountain-24616

@@ -1,4 +1,4 @@
-.PHONY: test
+.PHONY: test test_api
 
 deps:
 	pip install -r requirements.txt; \
@@ -16,9 +16,6 @@ test_smoke:
 
 run:
 	python main.py
-	
-test_api:
-	python test_api
 
 docker_build:
 	docker build -t hello-world-printer .
@@ -34,3 +31,6 @@ test_cov:
 
 test_xunit:
 	PYTHONPATH=. py.test -s --cov=. --junit-xml=test_results.xml
+
+test_api:
+	python test_api/test_api.py
