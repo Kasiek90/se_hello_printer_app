@@ -6,7 +6,7 @@ def main():
     """
     """
     try:
-        r = requests.get("http://127.0.0.1:5000?output=json")
+        r = requests.get("http://127.0.0.1:5000/?output=json")
     except requests.exceptions.RequestException as e:
         print(e)
         exit(1)
